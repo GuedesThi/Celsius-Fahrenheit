@@ -1,0 +1,15 @@
+@media (max-width: 769px) {
+    .problema h1 {
+        font-size: 30px;
+    }
+
+    .problema p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .formulario {
+        margin-top: 40px;
+        width: 80%;
+    }
+}

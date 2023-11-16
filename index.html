@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsividade.css">
+    <title>Lógica</title>
+</head>
+<body>
+    <div class="problema">
+        <h1>Desafios de Lógica</h1>
+        <p>Problema: peça a temperatura em Celsius e converta para Fahrenheit, e caso o usuário aperte o botão INVERTER, ele terá que colocar em Fahrenheit e mostrar o resultado na tela em Celsius</p>
+    </div>
+
+    <div class="container">
+        <div class="formulario">
+            <div class="pergunta">
+                <label>Temperatura Em:</label>
+                <br>
+                <div id="mudar-temperatura-pergunta"></div>
+                <br>
+                <input type="button" value="Enviar" id="botao-enviar">
+                <input type="button" value="Inverter" id="botao-dois">
+            </div>
+
+            <div class="resposta">
+                <div class="frase-resposta">
+                    <label>Resposta Em:</label>
+                    <div id="mudar-temperatura-resposta"></div>
+                </div>
+                <br>
+                <div class="campo-resposta">
+                    <div class="resposta-na-tela"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

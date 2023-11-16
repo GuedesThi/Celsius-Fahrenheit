@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(65, 60, 112);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.problema {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    font-family: 'Manrope', sans-serif;
+    border-bottom: 1px solid;
+    color: aliceblue;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin-top: 10px;
+}
+
+.formulario {
+    background-color: rgb(255, 255, 255);
+    height: 430px;
+    width: 50%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+}
+
+.pergunta {
+    width: 88%;
+    height: 45%;
+    margin-top: 40px;
+}
+
+.pergunta label {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.pergunta #mudar-temperatura-pergunta input {
+    margin-top: 15px;
+    padding: 20px;
+    width: 95%;
+    border-radius: 10px;
+    border: 2px solid #2609ce;
+    font-size: 16px;
+}
+
+.pergunta #botao-enviar, #botao-dois {
+    width: 85px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    background-color: #2609ce;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.pergunta #botao-dois {
+    width: 93px;
+    margin-left: 20px;
+}
+
+.resposta{
+    width: 88%;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.resposta .frase-resposta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2px
+}
+
+.resposta .frase-resposta label, #mudar-temperatura-resposta {
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.campo-resposta {
+    width: 70%;
+    height: 115px;
+    border: 2px solid #2609ce;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo-resposta .resposta-na-tela {
+    width: 60%;
+    height: 50px;   
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
